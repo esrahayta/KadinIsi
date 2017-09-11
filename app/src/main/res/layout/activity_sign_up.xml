@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    >
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/transparent"
+        android:src="@mipmap/back_arrow_icon"
+        android:id="@+id/back_button" />
+    <Button
+        android:id="@+id/btnDukkan"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:background="@color/half_transparent"
+        android:fontFamily="MONOSPACE"
+        android:paddingTop="20dp"
+        android:text="@string/Alisveris"
+        android:textAllCaps="false"
+        android:textSize="27sp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnAlisveris"
+        android:drawableLeft="@mipmap/alisveris"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:id="@+id/btnAlisveris"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/half_transparent"
+        android:fontFamily="MONOSPACE"
+        android:paddingTop="20dp"
+        android:text="@string/Dukkan"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_marginLeft="5dp"
+        android:drawableLeft="@mipmap/store"
+        android:layout_below="@+id/back_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

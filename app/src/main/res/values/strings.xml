@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">KadinIsi</string>
+
+    <string name="eposta_kaydol">Eposta ile kaydol</string>
+    <string name="enterText">Mevcut bir hesabım var. <b>Giriş yap</b></string>
+    <string name="continue_without_save">Kaydolmadan devam et</string>
+    <string name="continue_without_save2">Vazgeçtim,<b>giriş yapmadan devam et</b></string>
+    <string name="eposta_adresi">Eposta adresi</string>
+    <string name="isim_soyisim">İsim Soyisim</string>
+    <string name="sifre">Şifre</string>
+    <string name="sifre2">Şifre Tekrar</string>
+    <string name="kaydol">Kaydol</string>
+
+    <string name="sifremi_unuttum">Şifremi Unuttum</string>
+    <string name="tamam">Tamam</string>
+
+    <string name="arama">Arama</string>
+    <string name="geri">Geri</string>
+    <string name="guncel">Guncel</string>
+    <string name="ekle">Ekle</string>
+    <string name="bildirimler">Bildirimler</string>
+    <string name="profil">Profil</string>
+
+    <string name="merhaba">Merhaba</string>
+    <string name="yakininda">Yakınında</string>
+    <string name="haftanin_trendleri">Haftanın Trendleri</string>
+    <string name="kesfet">Keşfet</string>
+    <string name="yeni_restoran_kesfet">Yeni restoranlar ve lezzetler keşfet</string>
+
+    <string name="su_an_acik">ŞU AN AÇIK</string>
+    <string name="bugun">Bugün</string>
+    <string name="restorandan_fotolar">Restorandan Fotoğraflar</string>
+    <string name="tum_fotolar">Tüm Fotoğraflar</string>
+    <string name="restoran_menusu">Restoran Menüsü</string>
+    <string name="tum_menuler">Tüm Menüler</string>
+    <string name="yorumlar">Yorumlar</string>
+    <string name="tum_yorumlar">Tüm Yorumlar &amp; Puanlar</string>
+    <string name="calisma_saatleri">Çalışma Saatleri</string>
+    <string name="restoran_ozellikleri">Restoran Özellikleri</string>
+    <string name="odeme_tercihleri">Ödeme Tercihleri</string>
+    <string name="sikayet_paylas">Şikayet / Görüş Paylaş</string>
+
+    <string name="pazartesi">Pazartesi</string>
+    <string name="sali">Salı</string>
+    <string name="carsamba">Çarşamba</string>
+    <string name="persembe">Perşembe</string>
+    <string name="cuma">Cuma</string>
+    <string name="cumartesi">Cumartesi</string>
+    <string name="pazar">Pazar</string>
+
+    <string name="restoranlarda_ara">Restoranlarda ara</string>
+    <string name="sehir_semt_ara">Şehir, Semt ya da ülke arayın</string>
+    <string name="hizli_secimler">Hızlı Seçimler</string>
+    <string name="yakin_mekan">Yakındaki Mekanlar</string>
+
+    <string name="ozellikler">Özellikler</string>
+    <string name="filtrele">Filtrele</string>
+    <string name="sirala">Sırala</string>
+
+    <string name="foto_ekle">Fotoğraf Ekle</string>
+    <string name="yorum_paylas">Yorum Paylaş</string>
+
+    <string name="vazgec">Vazgeç</string>
+    <string name="paylas">Paylaş</string>
+
+    <string name="ne_paylasmak_ist">Ne paylaşmak istiyorsun?</string>
+    <string name="mekana_puan_ver">Mekana Puan Ver</string>
+
+    <string name="tum_paylasimlari">Tüm Paylaşımları</string>
+    <string name="fotograflar">Fotoğraflar</string>
+    <string name="kamerayi_ac">Kamerayı Aç</string>
+
+    <string name="kapat">Kapat</string>
+    <string name="takip_et">Takip Et</string>
+
+    <string name="mutfak_secimi">Mutfak Seçimi</string>
+    <string name="kaydettiklerim">Kaydettiklerim</string>
+
+    <string name="facebook_app_id">1018049884941972</string>
+
+    <string name="Dukkan">Dükkan Oluştur</string>
+    <string name="Alisveris">Alışveriş Yap</string>
+
+    <string name="etkinlik">Yardıma ihtiyacın mı var? Etkinlik Oluşturarak kendine yardımcılar bulabilirsin!</string>
+    <string name="ilan">Kendi ilanını vererek sana daha kolay ulaşılmasını sağlayabilirsin.Haydi ilanını oluştur!</string>
+    <string name="urunekle">Kendi dükkanına ürün eklemek mi istiyorsun?</string>
+    <string name="urunekledetay">Ürün Ekle</string>
+</resources>

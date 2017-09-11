@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Anasayfa" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/icon_search"
+        android:title="Ara"></item>
+    <item
+        android:id="@+id/navigation_plus"
+        android:icon="@drawable/icon_plus"
+        android:title="Ekle" />
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Bildirimler" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/icon_profile"
+        android:title="Profil" />
+</menu>

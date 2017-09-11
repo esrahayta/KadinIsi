@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/crimson">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:paddingTop="8dp"
+                android:src="@mipmap/icon_back" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight=".5"
+                android:background="@color/transparent"
+                android:gravity="center_vertical"
+                android:hint="Ürün Ara,Üye Ara"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/loc_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:background="@color/crimson"
+                android:paddingTop="8dp"
+                android:src="@mipmap/icon_loc" />
+
+            <ImageButton
+                android:id="@+id/map_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:background="@color/crimson"
+                android:paddingTop="8dp"
+                android:src="@mipmap/icon_map" />
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+</android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="57dp"
+        android:background="@color/back_grey"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-6dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_weight=".3"
+                android:background="@color/transparent"
+                android:drawableLeft="@mipmap/icon_properties"
+                android:textAllCaps="false"
+                android:text="Özellikler"
+                android:textColor="@color/dark_grey"/>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="@color/dark_grey"></LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_weight=".3"
+                android:background="@color/transparent"
+                android:textAllCaps="false"
+                android:drawableLeft="@mipmap/icon_filter"
+                android:text="@string/filtrele"
+                android:textColor="@color/dark_grey"/>
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="@color/dark_grey"></LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_weight=".3"
+                android:background="@color/transparent"
+                android:textAllCaps="false"
+                android:drawableLeft="@mipmap/icon_order"
+                android:text="@string/sirala"
+                android:textColor="@color/dark_grey"/>
+        </LinearLayout>
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp"/>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
